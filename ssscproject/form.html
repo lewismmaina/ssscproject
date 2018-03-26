@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--<link rel="stylesheet" type="text/css" href="form.css">-->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<script type="text/javascript" src="bootstrap.js"></script>
+
+	<title>THE KENYATTA SPORTS CLUB</title>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color:lightblue;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+	
+	
+	
+	
+	
+	
+	<style>
+	input[type=submit]{
+		padding: 18px 30px;
+		color:black;
+		background-color: red;
+		cursor: pointer;
+		
+
+	}
+
+		body{
+			background-color: white;  
+		}
+		
+		
+	</style>
+</head>
+
+<body>
+
+<div id="empty Div"></div>
+<div id="description"></div>
+
+<h2>THE KENYATTA SPORTSCLUB REGISTRATION</h2>
+
+<!..form beginning ..>
+<form action="action_page.php">
+<legend>Membership registration:</legend>
+
+<fieldset> 
+<div id="membership form registration">
+
+
+	<div class="fullname">
+		<form name="form">
+		<label for="fullname">FULLNAME</label>
+			<div id="errorbox "></div>
+			<input type="text" name="fullname" value="" placeholder="yourfullnames" class="input_name">
+		</form>
+	</div>
+	<br>
+
+	<div id="email_form">
+	      <label for="email">EMAIL</label>
+	      <input type="text" name="email" value="" placeholder="enter your email" class="input_email" >
+	</div>
+	<br>
+
+	<div id="phonenumber">
+	     <label for="phonenumber">phonenumber</label> 
+	      <input type="number" name="phonenumber" value="" placeholder="enter your phonenumber" class="input_phonenumber">
+	</div>
+	<br>
+
+	<div id="address">
+	     <label for="address">ADDRESS</label>
+	     <input type="number" name="address" value="" placeholder="enter your address" class="input_adress">
+	</div>
+	<br>
+
+	<div id="gender">
+	      <label for="gender">GENDER</label>
+	      <input type="radio" name="gender" value="female" <span>FEMALE</span>
+	      <input type="radio" name="gender" value="male"<span>MALE</span>
+	      <input type="radio" name="gender" value="other" <span>OTHER</span>
+    </div>
+    <br>
+
+	<div id="age">
+	      <label for="age">AGE</label>
+	      <input type="number" name="age" value="" placeholder="enter your age" class="input_adress">
+	</div>
+	<br>
+
+	<div id="membertype">
+	       <label for="membertype">MEMBERTYPE</label>
+	   <select name="membertype">
+	         <option selected="" value="Default">(please select your membership</option>
+	         <option value="P">PREMIUM</option>
+	         <option value="C">COMPACT</option>
+	          <option value="R">REGULAR</option>
+	   </select>
+	</div>
+	<br>
+	<div id=paythrough>
+	      <label for="paythrough">PAYMENTOPTION</label>
+	    <select name="paythrough">
+	      <option selected="" value="Default">(please select preffered method</option>
+	      <option value="A">MPESA</option>
+	      <option value="B">CREDITCARD</option>
+	      <option value="C">CASH</option>S
+	</select>
+	</div>
+	<br>
+
+	 <div class="form-group">
+				
+	     <input type="submit" id="submit" name="submit" class="btn btn-primary" value="submit" />
+
+          </div>
+
+
+	</div>
+
+
+	</fieldset>
+	f</form>
+
+<br>
+
+	<table border="2" stylebackground-color="aqua">
+ <THEAD>
+<TR>
+  <TH>MEMBERTYPE</TH>
+  <TH>RATES</TH>
+  <TH>INCLUDES</TH>
+  
+</TH>
+ <TR>
+  <TD>PREMIUM</TD>
+  <TD>50,000/=permonth</TD>
+  <TD>all club privileges</TD>
+</TR>
+<TR>
+  <TD>COMPACT</TD>
+  <TD>35,0000/=permonth</TD>
+  <TD>15% off on all club facilities</TD>
+</TR>
+<TR>
+  <TD>REGULAR</TD>
+  <TD>20,000/=permonth</TD>
+  <TD>dicount on selected facilities</TD>
+</TR>
+
+</table>
+
+
+</body>
+</html>
